@@ -1,2 +1,2 @@
 # website
-The first repository on GitHub for Style Society.
+The first repository on GitHub for St Andrews Fashion Collective.
