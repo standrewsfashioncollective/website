@@ -2,12 +2,11 @@
   font-family:"Times New Roman", Times, serif;
   font-size:1em;
 }
-.head li{
-  font-family:"Times New Roman", Times, serif;
-  font-size:1em;
-} 
-.body li{
+.h1 li{
   font-family:"Times New Roman", Times, serif;
   font-size:1em;
 }
-
+.p li{
+  font-family:"Times New Roman", Times, serif;
+  font-size:1em;
+}
