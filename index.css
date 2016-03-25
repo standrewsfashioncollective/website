@@ -65,22 +65,12 @@
   }
 
   .jumbotron {
-        min-height : 600px;
+        min-height : 300;
         background-image: url('StAndrewsFashionCollectiveBanner.jpg');
         background-position: center;
         background-size : cover;
         background-attachment:fixed;
         padding-top: 100px;
-}
-
-.jumbotron h1 {
-    font-family: "Times New Roman";
-    color:white;
-}
-
-.jumbotron label {
-    color: white;
-    font-size: 20px;
 }
 
 .jumbotron img {
