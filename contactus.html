@@ -50,11 +50,45 @@
   <p>If you or your organization wish to collaborate with SFC, please contact our founder, Stephanie Irwin: smi2@st-andrews.ac.uk 
   <br> <br> Please note: We are an independent organization, and are not affiliated with the St Andrews University Student Union.</p>
   
-     <left><h4> <strong> Connect with us!</strong> </h4></left>
+     <left><h4> <strong> Connect with Us!</strong> </h4></left>
   <left><p> Enter your details below to hear more about upcoming events hosted by the St Andrews Fashion Collective</p></left>
   <input type="text" placeholder="Name">
   <input type="text" placeholder="Year">
   <input type="text" placeholder="Email">
   <button onclick="alert ('St Andrews Fashion Collective')"> Submit</button>
+  
+  <div class="row content">
+    <left><h4> <strong>Message Us!</strong> </h4></left>
+    <left><p> Enter your details below to hear more about upcoming events hosted by the St Andrews Fashion Collective or to send us a m</p></left>
+ <form action="" method="post" class="dark-matter">
+    <label>
+        <span>Name :</span>
+        <input id="name" type="text" name="name" placeholder="What is your name?" />
+    </label>
+    
+    <label>
+        <span>Year :</span>
+        <input id="year" type="text" name='year' placeholder="What year are you in?" />
+    </label>
+    
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="What is your email?" />
+    </label>
+    
+    <label>
+        <span>Message :</span>
+        <textarea id="message" name="message" placeholder="Please enter your message"></textarea>
+    </label> 
+     <label>
+        <span>Subject :</span><select name="selection">
+        <option value="General Question">General Question</option>
+        </select>
+    </label>    
+     <label>
+        <span>&nbsp;</span> 
+        <input type="button" class="button" value="Send" /> 
+    </label>    
+</form>
 </body>
 </html>
