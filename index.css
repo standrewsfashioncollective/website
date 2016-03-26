@@ -65,11 +65,11 @@
   }
 
   .jumbotron {
-        min-height : 300px;
         background-image: url('StAndrewsFashionCollectiveBanner.jpg')no-repeat center fixed;
         background-position: center;
         background-size : cover;
         background-attachment:fixed;
+        width:100%; max-height
 }
 
 .jumbotron img {
