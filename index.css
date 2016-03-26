@@ -7,15 +7,18 @@
         background: url("StAndrewsFashionCollectiveBanner.jpg")no-repeat center fixed;
         background-size: cover;
         background-position: center;
-        color: white;
+<<<<<<< HEAD
         font-family: Times New Roman;
+=======
+        font-family: "Times New Roman";
+>>>>>>> origin/gh-pages
         font-size:60;
         color: black;
     }
     
     h1 {
       font-size: 100px;
-      font-family: Times New Roman;
+      font-family: "Times New Roman";
       color: black}
     
     p {
@@ -23,7 +26,7 @@
     }
     
     .about {
-        font-family: Times New Roman;
+        font-family: "Times New Roman";
         font-size: 30px;
         padding: 10px;
         background: rgba(0,0,0,0.7);
@@ -46,15 +49,15 @@
   }
 
   .navbar{
-        font-family: Times New Roman;
+        font-family: "Times New Roman";
         font-size: 30px;
         padding: 10px;
         background: rgba(0,0,0,0.5);
-        color: #7f1a1a;}
+        color: black;}
 
     .navbar-brand {
       font-size: 40px;
-      font-family: Times New Roman;
+      font-family: "Times New Roman";
     }
 
   
@@ -66,30 +69,28 @@
   }
 
   .jumbotron {
-        min-height : 600px;
-        background-image: url('StAndrewsFashionCollectiveBanner.jpg');
+        background-image: url('StAndrewsFashionCollectiveBanner.jpg')no-repeat center fixed;
+        background-size:auto auto;
         background-position: center;
-        background-size : cover;
         background-attachment:fixed;
+<<<<<<< HEAD
         padding-top: 100px;
 }
 
 .jumbotron h1 {
-    font-family: Times New Roman;
+    font-family: "Times New Roman";
     color:white;
 }
 
 .jumbotron label {
     color: white;
     font-size: 20px;
+=======
+>>>>>>> origin/gh-pages
 }
 
 .jumbotron img {
     margin-top: 50px;
-}
-
-#myCarousel{
-
 }
 
 #about {
@@ -157,7 +158,7 @@ background-color: #b62f26;
   position:relative;
   width:100%;
   height:100%;
-  background:url("covermain.jpg") no-repeat center center scroll;
+  background:url("StAndrewsFashionCollectiveBanner.jpg") no-repeat center center scroll;
   background-attachment:fixed;-webkit-background-size:cover;
   background-size:cover;
   }
@@ -165,7 +166,7 @@ background-color: #b62f26;
   .content {
     padding:20px;
     background: rgba(0,0,0,0.5);
-    font-family: Times New Roman;
+    font-family: "Times New Roman";
   }
   
   .content-item {margin-bottom:15px}
@@ -178,7 +179,7 @@ background-color: #b62f26;
   width: 100%;
   height: 40px;
   background-color: black;
-  font-family: Times New Roman;
+  font-family: "Times New Roman";
   text-align: center;
   opacity:0.7;
   font-color: #333;
