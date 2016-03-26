@@ -69,10 +69,13 @@
         background-size:auto auto;
         background-position: center;
         background-attachment:fixed;
+        background-color: #FFFFFF; opacity: 0.5; filter: alpha(opacity=50);
 }
 
 .jumbotron img {
     margin-top: 50px;
+    background-image: url('StAndrewsFashionCollectiveBanner.jpg')no-repeat center fixed;
+    background-size:auto auto;
 }
 
 #about {
