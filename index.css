@@ -5,21 +5,21 @@
     
   
         background: url("StAndrewsFashionCollectiveBanner.jpg")no-repeat center fixed;
-        background-size: cover;
+        background-size: small;
         background-position: center;
 <<<<<<< HEAD
-        font-family: Times New Roman;
+        font-family: "Times New Roman";
 =======
         font-family: "Times New Roman";
 >>>>>>> origin/gh-pages
         font-size:60;
-        color: black;
+        color: "black";
     }
     
     h1 {
       font-size: 100px;
       font-family: "Times New Roman";
-      color: black}
+      color: "black"}
     
     p {
       font-size: 15px;
@@ -73,8 +73,6 @@
         background-size:auto auto;
         background-position: center;
         background-attachment:fixed;
-<<<<<<< HEAD
-        padding-top: 100px;
 }
 
 .jumbotron h1 {
@@ -90,7 +88,7 @@
 }
 
 .jumbotron img {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 #about {
@@ -160,7 +158,8 @@ background-color: #b62f26;
   height:100%;
   background:url("StAndrewsFashionCollectiveBanner.jpg") no-repeat center center scroll;
   background-attachment:fixed;-webkit-background-size:cover;
-  background-size:cover;
+  background-size: 99%;
+  background-position: top;
   }
   
   .content {
